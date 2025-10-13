@@ -31,10 +31,11 @@ FULLSTACK + DEVOPS ROADMAP
 - Time: 4-6 weeks
 
 # 6. Database Layer
-- PostgreSQL
-- Prisma ORM
-- CRUD, Relationships, Migrations, Seeding
-- Time: 2 weeks
+- SQL Option: PostgreSQL + Prisma ORM
+  - CRUD, Relationships, Migrations, Seeding
+- NoSQL Option: MongoDB + Mongoose
+  - Schemas, Models, Validation, Relations (Population)
+- Time: 2 weeks each (Pick based on project requirement)
 
 # 7. Authentication & Security
 - JWT Authentication
@@ -50,7 +51,7 @@ FULLSTACK + DEVOPS ROADMAP
 - Time: Ongoing
 
 # 9. DevOps Basics
-- Docker: Containerize NestJS + PostgreSQL
+- Docker: Containerize NestJS + PostgreSQL / MongoDB
 - Docker Compose: Multi-container apps
 - Time: 2 weeks
 
@@ -82,7 +83,7 @@ FULLSTACK + DEVOPS ROADMAP
 Most Demanded Tech Stack (2025)
 ===========================
 Frontend: React + TypeScript
-Backend: NestJS + Prisma + PostgreSQL
+Backend: NestJS + Prisma + PostgreSQL OR MongoDB + Mongoose
 Messaging / Microservices: Redis / Kafka
 DevOps: Docker + GitHub Actions
 Deployment: AWS / DigitalOcean / Render
@@ -94,7 +95,7 @@ Node + Express ✅
       ↓
 NestJS (Monolith) 🔥
       ↓
-Prisma + PostgreSQL ✅
+Prisma + PostgreSQL ✅ OR MongoDB + Mongoose ✅
       ↓
 Authentication + Files + Payments ✅
       ↓
@@ -107,7 +108,7 @@ CI/CD Automation ✅
 ===========================
 Goal
 ===========================
-- Backend Developer (NestJS + Prisma + PostgreSQL)
+- Backend Developer (NestJS + Prisma + PostgreSQL OR MongoDB + Mongoose)
 - DevOps-aware Developer (Docker + CI/CD + Deployment Ready)
 - Microservice-ready Engineer
 - Fullstack Professional with High Job Demand
